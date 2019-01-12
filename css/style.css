@@ -1,0 +1,49 @@
+html{
+
+    font-family: "Andale Mono" , Silom ;
+
+
+}
+
+
+
+#main {
+
+
+    margin: 50px 10px;
+    padding: 15px;
+    border: 0px solid;
+    border-radius: 5px;
+
+}
+
+
+#title{
+    display: block;
+    padding: 20px;
+    background: #eeb57a;
+    border-radius: 15px;
+}
+
+#img-div {
+    margin: -5px;
+    margin-top: 20px;
+    width: 100%;
+    border: 5px solid white;
+    background: white;
+}
+
+
+
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#img-caption{
+
+
+}
