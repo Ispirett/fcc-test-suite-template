@@ -1,28 +1,20 @@
 html{
-
     font-family: "Andale Mono" , Silom ;
-
-
 }
 
-
-
 #main {
-
-
     margin: 50px 10px;
     padding: 15px;
     border: 0px solid;
     border-radius: 5px;
-
 }
-
 
 #title{
     display: block;
     padding: 20px;
     background: #eeb57a;
     border-radius: 15px;
+    color: white;
 }
 
 #img-div {
@@ -31,19 +23,38 @@ html{
     width: 100%;
     border: 5px solid white;
     background: white;
+    
 }
-
-
-
 
 img {
     max-width: 100%;
     display: block;
     height: auto;
     margin: auto;
+    border-radius: 15px;
+}
+#tribute-info {
+    margin: 0;
+    width: 100%;
+    font-size: 120%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
-#img-caption{
+#tribute-link {
+    margin: 0;
+    width: 100%;
+    color: #eeb57a;
+}
 
 
+#tribute-link:visited {
+    color: rosybrown;
+}
+#tribute-link:hover {
+    color: blue;
+}
+          
+#tribute-link:active {
+    color: rgb(121, 121, 207);
 }
